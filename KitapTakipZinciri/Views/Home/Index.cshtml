@@ -1,0 +1,15 @@
+﻿@model IEnumerable<KitapTakipZinciri.Models.book>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<form action="/Login" method="post" style="text-align:center">
+    username: <input type="text" name="userName"><br>
+    password: <input type="password" name="password"><br>
+    <input type="submit" value="Submit">
+</form>
